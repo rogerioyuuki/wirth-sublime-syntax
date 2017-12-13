@@ -21,7 +21,7 @@ contexts:
     - include: strings
 
   invalid:
-    - match: '^[^.]+$'
+    - match: '(?<==)[^.]+$'
       scope: invalid.illegal
 
   definition:
